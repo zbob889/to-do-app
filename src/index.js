@@ -3,6 +3,7 @@ import addElement from './addElement.js';
 import addText from './addText.js';
 import {createToDo} from './createToDo.js';
 import newProject from './newProject.js';
+import saveToStorage from './saveToStorage';
 
 const newProjectButton = document.getElementById('newProject');
 newProjectButton.addEventListener('click', () => {
